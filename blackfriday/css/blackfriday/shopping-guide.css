@@ -1,0 +1,469 @@
+#subnav-content .subnav-actions {
+	width: 250px;
+}
+
+body #container {
+	width: auto;
+}
+
+.shopping-guide-hero.hero {
+	background: url(/us/images/blackfriday/bg-shopping-hero-guide-pattern-alt.jpg) repeat-x top;
+}
+
+.shopping-guide-hero .underlay {
+	max-width: 1600px;
+	background: url(/us/images/blackfriday/bg-hero-shopping-guide-alt.jpg) no-repeat center top;
+	margin: 0 auto;
+}
+
+.shopping-guide-hero .hero-content {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 58px;
+	overflow: hidden;
+}
+
+.shopping-guide-hero h2 {
+	padding-top: 40px;
+	margin-bottom: 10px;
+	font-size: 56px;
+	line-height: 56px;
+	font-family: 'PFSquareSansProLight', 'arial', 'helvetica';
+	font-weight: normal;
+	color: #fff;
+}
+
+.shopping-guide-hero p {
+	width: 600px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: 'PFSquareSansProRegular', 'arial', 'helvetica';
+	color: #fff;
+}
+
+/*
+.product-navigation-container {
+	height: 163px;
+}*/
+
+.product-navigation {
+	background: #fff;
+	border-bottom: 1px solid #dce3e5;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 4px 12px -5px #000;
+  	-moz-box-shadow: 0 4px 12px -5px #000;
+   	box-shadow: 0 4px 12px -5px #000;
+   	z-index:2000;
+}
+
+.product-navigation ul {
+	width: 1015px;
+	background: #fff;
+	padding: 10px 0 10px 0;
+	margin: 0 auto;
+	/* If height is not set, there may be some miscalculations in JS because of images not being loaded at the time of height calculation */
+	height: 140px;
+	zoom: 1;
+}
+
+.product-navigation ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.product-navigation li {
+	float: left;
+	width: 75px;
+	padding-bottom: 0px;
+	line-height: 15px;
+	padding-right: 3px;
+	font-family: 'PFSquareSansProMedium', 'arial', 'helvetica';
+	text-align: center;
+}
+
+.product-navigation li a {
+	display: block;
+	text-decoration: none;
+	color: #777777;
+}
+
+.product-navigation li:hover a {
+	color: #00A9E0;
+}
+
+.product-navigation li:hover span {
+	/*background: url(/us/images/blackfirday/nav-pointers.png) no-repeat -53px bottom;*/
+}
+
+.product-navigation li span {
+	display: block;
+	/*background: url(/us/images/blackfirday/nav-pointers.png) no-repeat 29px bottom;*/
+	padding-bottom: 15px;
+}
+
+/* Sticky Nav*/
+
+.affix-top{
+	position:relative;
+}
+.affix{
+	position:fixed;
+	top:0px;
+	z-index:2000;
+}
+.affix-bottom{
+	position:absolute;
+	bottom:0px;
+}
+
+.shopping-guide .section {
+	border-bottom: 1px solid #dce3e5;
+}
+
+.shopping-guide .section.last-section {
+	border-bottom: none;
+}
+
+.shopping-guide .section-content {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 0 25px 0;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.shopping-guide .section-content .main-copy {
+	padding-top: 50px;
+}
+
+.shopping-guide .section-content h3 {
+	margin-bottom: 10px;
+	font-size: 48px;
+	line-height: 48px;
+	font-family: 'PFSquareSansProLight', 'arial', 'helvetica';
+	color: #0051a0;
+}
+
+.shopping-guide .section-content h4 {
+	font-size: 30px;
+	line-height: 30px;
+	font-family: 'PFSquareSansProRegular', 'arial', 'helvetica';
+	color: #000;
+}
+
+.shopping-guide .section-content dl {
+	padding: 10px 0 20px 0;
+}
+
+.shopping-guide .section-content dt {
+	margin: 15px 0 5px 0;
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-family: 'PFSquareSansProRegular', 'arial', 'helvetica';
+	color: #e84797;
+}
+
+.shopping-guide .section-content dd {
+	font-size: 18px;
+	line-height: 24px;
+	font-family: 'PFSquareSansProRegular', 'arial', 'helvetica';
+	color: #576166;
+}
+
+.shop-cta {
+	line-height: 40px;
+	margin-left: -5px;
+}
+
+.shop-cta a {
+	margin-right: 5px;
+}
+
+.features {
+	background: url(/us/images/blackfriday/bg-features.png) repeat-y;
+	margin-top: 25px;
+	border-top: 1px solid #dce3e5;
+	border-bottom: 1px solid #dce3e5;
+	overflow: hidden;
+}
+
+.feature {
+	float: left;
+	width: 25%;
+}
+
+.feature-content {
+	padding: 15px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'PFSquareSansProRegular', 'arial', 'helvetica';
+}
+
+.feature-content img {
+	margin-bottom: 5px;
+}
+
+
+.feature.first {
+	width: 230px;
+}
+
+.feature.second {
+	width: 250px;
+}
+
+.feature.third {
+	width: 249px;
+}
+
+.feature.fourth {
+	width: 230px
+}
+
+.section {
+	overflow: hidden;
+	min-width: 960px;
+	width: 100%;
+}
+
+.section .section-contain {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.section-contain .main-img {
+	position: absolute;
+	z-index: 1;
+}
+
+.smart-tv .main-img {
+	right: -150px;
+}
+
+.smart-tv .section-contain h3, 
+.smart-tv .section-contain h4 {
+	width: 350px;
+}
+
+.smart-tv .section-contain dl {
+	width: 375px;
+}
+
+.blu-ray-player .main-img {
+	left: -95px;
+}
+
+.blu-ray-player .section-contain .main-copy {
+	padding-top: 45px;
+	padding-left: 510px;
+}
+
+.blu-ray-player .section-contain h3, 
+.blu-ray-player .section-contain h4 {
+	width: 435px;
+}
+
+.blu-ray-player .section-contain dl {
+	width: 420px;
+}
+
+.galaxy-s3 .main-img {
+	right: -5px;
+}
+
+.galaxy-s3 .section-contain h3, 
+.galaxy-s3 .section-contain h4 {
+	width: 365px;
+}
+
+.galaxy-s3 .section-contain dl {
+	width: 385px;
+}
+
+.galaxy-note2 .main-img {
+	left: -255px;
+}
+
+.galaxy-note2 .section-contain .main-copy {
+	padding-top: 60px;
+	padding-left: 540px;
+}
+
+.galaxy-note2 .section-contain h3, 
+.galaxy-note2 .section-contain h4 {
+	width: 325px;
+}
+
+.galaxy-note2 .section-contain dl {
+	width: 400px;
+}
+
+.galaxy-tab2 .main-img {
+	right: -60px;
+}
+
+.galaxy-tab2 .section-contain .main-copy {
+	padding-top: 65px;
+}
+
+.galaxy-tab2 .section-contain h3, 
+.galaxy-tab2 .section-contain h4 {
+	width: 430px;
+}
+
+.galaxy-tab2 .section-contain dl {
+	width: 350px;
+}
+.galaxy-tab2 .features {
+	margin-top: 50px;
+}
+
+.galaxy-note10 .main-img {
+	left: -280px;
+}
+
+.galaxy-note10 .section-contain .main-copy {
+	padding-top: 60px;
+	padding-left: 540px;
+}
+
+.galaxy-note10 .section-contain h3, 
+.galaxy-note10 .section-contain h4 {
+	width: 300px;
+}
+
+.galaxy-note10 .section-contain dl {
+	width: 400px;
+}
+
+.galaxy-camera .main-img {
+	right: -90px;
+}
+
+.galaxy-camera .section-contain h3, 
+.galaxy-camera .section-contain h4 {
+	width: 360px;
+}
+
+.galaxy-camera .section-contain dl {
+	width: 495px;
+}
+
+.galaxy-camera .section-contain .main-copy {
+	padding-top: 100px;
+}
+
+.galaxy-camera .features {
+	margin-top: 46px;
+}
+
+.w150f-camera .main-img {
+	left: -265px;
+}
+
+.w150f-camera .section-contain .main-copy {
+	padding-left: 540px;
+}
+
+.w150f-camera .section-contain h3, 
+.w150f-camera .section-contain h4 {
+	width: 370px;
+}
+
+.w150f-camera .section-contain dl {
+	width: 390px;
+}
+
+.qf20-camcorder .main-img {
+	right: -225px;
+}
+
+.qf20-camcorder .section-contain .main-copy {
+	padding-top: 135px;
+}
+
+.qf20-camcorder .section-contain h3, 
+.qf20-camcorder .section-contain h4 {
+	width: 440px;
+}
+
+.qf20-camcorder .section-contain dl {
+	width: 690px;
+}
+
+.series9-notebook .main-img {
+	left: -75px;
+}
+
+.series9-notebook .section-contain .main-copy {
+	padding-top: 95px;
+	padding-left: 540px;
+}
+
+.series9-notebook .section-contain h3, 
+.series9-notebook .section-contain h4 {
+	width: 420px;
+}
+
+.series9-notebook .section-contain dl {
+	width: 420px;
+}
+
+.series9-monitor .main-img {
+	right: -70px;
+}
+
+.series9-monitor .section-contain .main-copy {
+	padding-top: 80px;
+}
+
+.series9-monitor .section-contain h3, 
+.series9-monitor .section-contain h4 {
+	width: 450px;
+}
+
+.series9-monitor .section-contain dl {
+	width: 450px;
+}
+
+.mono-laser-printer .main-img {
+	left: -240px;
+}
+
+.mono-laser-printer .section-contain .main-copy {
+	padding-top: 85px;
+	padding-left: 517px;
+}
+
+.mono-laser-printer .section-contain h3, 
+.mono-laser-printer .section-contain h4 {
+	width: 445px;
+}
+
+.mono-laser-printer .section-contain dl {
+	width: 430px;
+}
+
+.french-door-refrigerator .main-img {
+	right: -100px;
+}
+
+.french-door-refrigerator .section-contain .main-copy {
+	padding-top: 100px;
+}
+
+.french-door-refrigerator .section-contain h3, 
+.french-door-refrigerator .section-contain h4 {
+	width: 452px;
+}
+
+.french-door-refrigerator .section-contain dl {
+	width: 450px;
+}
