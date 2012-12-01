@@ -73,6 +73,11 @@ body{
 	overflow: hidden;
 	padding-right:10px;
 }
+
+.menu li.last a {
+	padding-top: 0px;
+}
+
 /* Descriptions */
 .slidingMenuDesc{
 	margin-top:40px;
